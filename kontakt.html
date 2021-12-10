@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kontaktformulär</title>
+    <script src="https://kit.fontawesome.com/471b32fde5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="wrapper">
+        <!--Sidenav-->
+        <div class="sidenav">
+            <h1>Pro Artsy</h1>
+            <ul>
+                <li><a href="index.html#section1"><i class="fas fa-home"></i> Intro</a></li>
+                <li><a href="index.html#section2"><i class="fas fa-mortar-pestle"></i>Om mig</a></li>
+                <li><a href="index.html#section3"><i class="fas fa-mug-hot"></i>Keramik</a></li>
+                <li><a href="index.html#section4"><i class="far fa-gem"></i>Smycken</a></li>
+                <li><a href="index.html#section5"><i class="fas fa-user-astronaut"></i>Konstverk</a></li>
+                <li><a href="Galleri.html"><i class="fas fa-journal-whills"></i>Galleri</a></li>
+                <li><a href="kontakt.html"><i class="fas fa-user-astronaut"></i>Kontakt</a></li>
+            </ul>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/moonshrinescreations"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/Paulina.Badini/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.etsy.com/shop/moonshrinescreations"><i class="fab fa-etsy"></i></a>
+            </div>
+        </div>
+
+          <!-- main page -->
+  <div class="main">
+    <Header>Artsy Crafter</Header>
+    <form action="https://formsubmit.co/0bba8099b072e2df6622c7f15c394a7c" method="POST">
+        
+        <label form="name">Name</label><br>
+        <input type="text" name="name" required placeholder="Your name...">
+        <br>
+        <label form="email">Email</label><br>
+        <input type="email" name="email" required placeholder="Your email...">
+        <br>
+        <label form="text">Message</label><br>
+        <textarea name="text" id="'" cols="35" rows="5" placeholder="Write your text here..."></textarea>
+        <button type="submit">Send</button>
+        <input type="hidden" name="_autoresponse" value="Message received, thanks!">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://tojoh123.github.io/ProArtsyTwo/thankyou.html">
+        <input type="hidden" name="_subject" value="Nytt mejl från kontaktformulär">
+        
+   </form>
+  </div>
+
+</body>
+</html>
